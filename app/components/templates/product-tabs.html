@@ -1,0 +1,17 @@
+<section>
+          <ul class="nav nav-pills">
+            <li ng-class="{active:panel.isSelected(1)}"><a href ng-click="panel.selectTab(1)">Описание</a></li>
+            <li ng-class="{active:panel.isSelected(2)}"><a href ng-click="panel.selectTab(2)">Отзывы</a></li>
+          </ul>
+          
+          <div class="panel" ng-show="panel.isSelected(1)">
+            {{product.descr}}
+          </div><!-- panel -->
+          <div class="panel" ng-show="panel.isSelected(2)">
+            <div class="review" ng-repeat="review in product.reviews">
+              <review-content></review-content>  
+            </div><!-- review -->
+
+            <div class="review-form" review-form></div><!-- review-form -->
+          </div><!-- panel -->
+        </section>

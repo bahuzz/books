@@ -1,0 +1,38 @@
+<h3>Оставить отзыв</h3>
+              <form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewForm.$valid && reviewCtrl.addReview(product)" novalidate>
+                <div class="form-preview">
+                  <div class="author">
+                    {{reviewCtrl.review.author}}
+                  </div><!-- author -->
+                  <div class="stars">
+                    Stars: {{reviewCtrl.review.stars}}
+                  </div><!-- stars -->
+
+                  <div class="text">
+                    {{reviewCtrl.review.text}}
+                  </div><!-- text -->
+                </div>
+                  
+
+                <div class="form-group">
+                   <input type="email" placeholder="Email" class="form-control" ng-model="reviewCtrl.review.author" required> 
+                </div><!-- form-group -->
+
+                <div class="review-rating form-group">
+                  <select class="form-control" ng-model="reviewCtrl.review.stars" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div><!-- review-rating -->
+
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Напишите свой отзыв" ng-model="reviewCtrl.review.text" required></textarea>
+                </div><!-- form-group -->
+
+                <div>reviewForm is {{reviewForm.$valid}}</div>
+
+                <input type="submit" class="btn btn-primary" value="Отправить">
+              </form>

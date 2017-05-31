@@ -1,0 +1,60 @@
+[
+{
+	"name": "В лесу",
+	"author": "Петр Багин",
+	"isbn": "978-5-00041-125-4",
+	"cover": "http://img1.labirint.ru/books50/499233/big.jpg",
+	"price": 576,
+	"canPurchase": "true",
+	"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc leo, ultrices id nisl eget, dignissim lacinia orci. Nulla porttitor iaculis est, a eleifend velit vestibulum sed. Donec diam magna, egestas sit amet malesuada sit amet, molestie ac metus. Ut sapien felis, tempor sed purus in, posuere eleifend nisi. Maecenas eget blandit justo, vitae pharetra erat. Aliquam vulputate neque sit amet metus luctus, id aliquet sem tincidunt. Quisque et turpis nec orci iaculis cursus. Aenean lobortis diam eget lacinia tincidunt. Aenean a accumsan massa. Ut quis est ac nulla scelerisque consequat.",
+	"reviews": [
+		{
+			"author": "Трухина Ирина",
+			"stars": 5,
+			"text": "КАЛЕНДАРИ ПРИРОДЫ.Когда-то они были очень популярны. Весь природный календарный год (желательно по месяцам) описывался и иллюстрировался для детей довольно часто (вспомним сборники 'Календари природы'). Сейчас на эту тему у меня есть две книги - 'Год в лесу' Соколова-Микитова (он же выходит сейчас в тонких книжках по-отдельности каждый сезон) и 'Зой и Зоя' Бианки букинистическая."
+		},
+		{
+			"author": "Ихамаджумба Тхапари",
+			"stars": 4,
+			"text": "По-моему, это первая книга, в которой П.И.Багин выступил не только, как прекрасный художник, но и как автор текста, да еще и в научно-популярном жанре. Иллюстрации мне очень понравились, детям будет очень интересно 'путешествовать' по странице, разглядывая одного зверя за другим. Много мелких деталей, типа мышек в норках и 'домиков' в разрезе."
+		}
+	]
+},
+{
+	"name": "1984",
+	"author": "Джордж Оруэлл",
+	"isbn": "978-5-17-080115-2",
+	"cover": "http://img1.labirint.ru/books42/419735/big.jpg",
+	"price": 136,
+	"canPurchase": true,
+	"descr": "Etiam eget sem enim. Curabitur felis ligula, placerat ac elementum eget, tempor vitae dolor. Quisque finibus molestie justo vel dignissim. Quisque scelerisque mauris eu lacus rhoncus feugiat. Vivamus et ornare purus, quis condimentum nulla. Duis sit amet arcu vitae ex bibendum ultrices sit amet id ligula. Integer vitae lorem nec justo lacinia laoreet sit amet in nunc. Mauris eleifend vehicula orci, sit amet viverra neque pharetra id. Duis dignissim convallis venenatis. Cras eu auctor nulla, ac tempor tortor. Maecenas id mi quis tortor tempus vehicula sed sed nisl. Quisque efficitur turpis id velit auctor, pharetra ornare sem porta.  ",
+	"reviews": [
+		{
+			"author": "Ясько Артем",
+			"stars": 4,
+			"text": "Фантастично! Эта книга поглотила меня полностью. До самой последней страницы, да и после, не мог избавиться от ощущение, что все, что описывается происходит на самом деле. Книга в данном издании очень удобна: компактна+мягкий переплет."
+		},
+		{
+			"author": "mariaa",
+			"stars": 5,
+			"text": "Издание за такую цену отличное - белая бумага, плотная мягкая обложка, хорошая печать.Прилагаю фотографии."
+		}
+	]
+},
+{
+	"name": "451 по Фаренгейту. Механизмы радости. Сборник рассказов",
+	"author": "Рэй Брэдбери",
+	"isbn": "978-5-699-92380-9",
+	"cover": "http://img2.labirint.ru/books56/556202/big.jpg",
+	"price": 336,
+	"canPurchase": true,
+	"descr": "Phasellus ac purus sit amet dolor tempus consequat ut ut lorem. Suspendisse pharetra vehicula purus ac ornare. Maecenas consequat placerat ante, eu ornare sapien tristique id. Duis pulvinar turpis in sollicitudin ornare. Ut maximus erat vitae augue hendrerit, porttitor dictum neque c ",
+	"reviews": [
+		{
+			"author": "Dana Mad",
+			"stars": 3,
+			"text": "ОБРАТИТЕ ВНИМАНИЕ! Перед выходом книги издательство изменило ее содержание, поэтому аннотация и скриншоты в настоящий момент не соответствуют действительности. Вместо заявлеленных 5 романов ('451 по Фаренгейту', 'Вино из одуванчиков', 'Марсианские хроники', 'Лето, прощай' и 'Надвигается беда') в книгу вошли только '451 по Фаренгейту' и 'Механизмы радости'. Я давно добавила это издание в отложенные и не перепроверила"
+		}
+	]
+}
+]
